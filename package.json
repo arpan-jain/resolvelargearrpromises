@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node -r esm index.js"
   },
-  "author": "Arpan Jain",
+  "author": "Arpan Jain <arpanjain3.14@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "bluebird": "^3.7.1",
@@ -17,5 +17,9 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.16.0",
     "esm": "^3.2.25"
-  }
+  },
+  "engines": {
+    "node": ">= 8.5"
+  },
+  "repository": "arpan-jain/resolvelargearrpromises"
 }
