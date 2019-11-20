@@ -1,0 +1,21 @@
+{
+  "name": "resolvelargearrpromises",
+  "version": "1.0.0",
+  "description": "Simple functionality to resolve a large array of promises in series of batches (batches itself gets resolved in parallel) without hitting the call stack size",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r esm index.js"
+  },
+  "author": "Arpan Jain",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.7.1",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.16.0",
+    "esm": "^3.2.25"
+  }
+}
