@@ -1,6 +1,6 @@
 {
   "name": "resolvelargearrpromises",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple functionality to resolve a large array of promises in series of batches (batches itself gets resolved in parallel) without hitting the call stack size",
   "main": "index.js",
   "scripts": {
