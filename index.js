@@ -1,5 +1,9 @@
 import bluebird from 'bluebird';
 
+/**
+ * Resolve callbacks before the event loop continues
+ * @returns {Promise<Promise<any>|undefined>}
+ */
 const processNextTickAsync = async function processNextTickAsync() {
   try {
     return new Promise((resolve) => process.nextTick(() => {
